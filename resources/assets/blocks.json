@@ -1,0 +1,11 @@
+{
+    "format_version": "1.14.0",
+    "base_controller": {
+        "textures": {
+            "up": "base_controller",
+            "down": "base_controller",
+            "side": "base_controller"
+        },
+        "sound": "metal"
+    }
+}

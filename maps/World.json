@@ -1,0 +1,44 @@
+{
+    "functions": [
+        {
+            "name": "?getBiome@BlockSource@@QEAAAEAVBiome@@AEBVBlockPos@@@Z",
+            "address": "0x1780830"
+        },
+        {
+            "name": "?addToTickingQueue@BlockSource@@QEAAXAEBVBlockPos@@AEBVBlock@@HH@Z",
+            "address": "0x1778AB0"
+        },
+        {
+            "name": "?getBlock@BlockSource@@QEBAAEBVBlock@@AEBVBlockPos@@@Z",
+            "address": "0x1779710"
+        },
+        {
+            "name": "?getExtraBlock@BlockSource@@QEBAAEBVBlock@@AEBVBlockPos@@@Z",
+            "address": "0x1779E90"
+        },
+        {
+            "name": "?getLiquidBlock@BlockSource@@QEBAAEBVBlock@@AEBVBlockPos@@@Z",
+            "address": "0x1779E20"
+        },
+        {
+            "name": "?setBlock@BlockSource@@QEAA_NAEBVBlockPos@@AEBVBlock@@HPEBUActorBlockSyncMessage@@@Z",
+            "address": "0x17797E0"
+        },
+        {
+            "name": "?setExtraBlock@BlockSource@@QEAA_NAEBVBlockPos@@AEBVBlock@@H@Z",
+            "address": "0x1779BD0"
+        },
+        {
+            "name": "?removeBlock@BlockSource@@QEAA_NAEBVBlockPos@@@Z",
+            "address": "0x177ADB0"
+        },
+        {
+            "name": "?checkBlockPermissions@BlockSource@@QEAA_NAEAVActor@@AEBVBlockPos@@EAEBVItemStack@@_N@Z",
+            "address": "0x1778690"
+        },
+        {
+            "name": "?fireBlockChanged@BlockSource@@QEAAXAEBVBlockPos@@IAEBVBlock@@1HPEBUActorBlockSyncMessage@@@Z",
+            "address": "0x1780260"
+        }
+    ]
+}

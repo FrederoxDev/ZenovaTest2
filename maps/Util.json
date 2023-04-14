@@ -1,0 +1,56 @@
+{
+    "functions": [
+        {
+            "name": "?toLower@Util@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+            "address": "0x0E52DA0"
+        },
+        {
+            "name": "?toUpper@Util@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+            "address": "0x0E52E40"
+        },
+        {
+            "name": "?u64FromString@Util@@YA_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+            "address": "0x0E53800"
+        },
+        {
+            "name": "??0CompoundTag@@QEAA@XZ",
+            "address": "0x0FDBC40"
+        },
+        {
+            "name": "??0CompoundTag@@QEAA@$$QEAV0@@Z",
+            "address": "0x0FDBD10"
+        },
+        {
+            "name": "??1CompoundTag@@UEAA@XZ",
+            "address": "0x0FDBD80"
+        },
+        {
+            "name": "?putFloat@CompoundTag@@QEAAAEAMV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z",
+            "address": "0x0FDC480"
+        },
+        {
+            "name": "?getFloat@CompoundTag@@QEBAMV?$basic_string_span@$$CBD$0?0@gsl@@@Z",
+            "address": "0x0FDCEB0"
+        },
+        {
+            "name": "?putInt@CompoundTag@@QEAAAEAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z",
+            "address": "0x0FDC320"
+        },
+        {
+            "name": "?getInt@CompoundTag@@QEBAHV?$basic_string_span@$$CBD$0?0@gsl@@@Z",
+            "address": "0x0FDCD10"
+        },
+        {
+            "name": "?putShort@CompoundTag@@QEAAAEAFV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@F@Z",
+            "address": "0x0FDC270"
+        },
+        {
+            "name": "?getShort@CompoundTag@@QEBAFV?$basic_string_span@$$CBD$0?0@gsl@@@Z",
+            "address": "0x0FDCC50"
+        },
+        {
+            "name": "?contains@CompoundTag@@QEBA_NV?$basic_string_span@$$CBD$0?0@gsl@@@Z",
+            "address": "0x0FDCA00"
+        }
+    ]
+}
