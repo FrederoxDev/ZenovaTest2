@@ -2,6 +2,7 @@
 
 #include <thread>
 #include <memory>
+#include "Minecraft/Block/Block.h"
 
 struct ActorBlockSyncMessage;
 class Level;

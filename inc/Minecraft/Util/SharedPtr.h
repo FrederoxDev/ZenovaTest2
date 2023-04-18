@@ -5,6 +5,10 @@
 #include <atomic>
 #include <utility>
 #include <algorithm>
+#include <memory>
+
+template <typename T, typename Y>
+using UniquePtr = std::unique_ptr<T, Y>;
 
 template<typename T>
 struct SharedCounter {

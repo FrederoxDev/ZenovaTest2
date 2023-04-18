@@ -1,0 +1,11 @@
+{
+    "vtable": [
+        {
+            "name": "Minecraft",
+            "address": "0x2BD8310",
+            "functions": [
+                "?getLevel@Minecraft@@QEBAPEAVLevel@@XZ"
+            ]
+        }
+    ]
+}

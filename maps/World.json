@@ -1,5 +1,210 @@
 {
+    "includes": [
+        "Minecraft/World/VanillaDimensionFactory.h"
+    ],
+    "vtable": [
+        {
+            "name": "Dimension",
+            "address": "0x2BCE820",
+            "functions": [
+                "?deserialize@Dimension@@UEAAXAEBVCompoundTag@@@Z",
+                "??0Dimension@@QEAA@AEAVLevel@@V?$AutomaticID@VDimension@@H@@FAEAVScheduler@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                "?distanceToNearestPlayerSqr2D@Dimension@@QEAAMVVec3@@@Z",
+                "?fetchEntity@Dimension@@QEAAPEAVActor@@UActorUniqueID@@_N@Z",
+                "?fetchNearestAttackablePlayer@Dimension@@QEAAPEAVPlayer@@VBlockPos@@MPEAVActor@@@Z",
+                "?fetchNearestAttackablePlayer@Dimension@@QEAAPEAVPlayer@@AEAVActor@@M@Z",
+                "?fetchNearestPlayer@Dimension@@QEAAPEAVPlayer@@AEAVActor@@M@Z",
+                "?fetchNearestPlayer@Dimension@@QEAAPEAVPlayer@@MMMM_N@Z",
+                "?findPlayer@Dimension@@QEBAPEAVPlayer@@V?$function@$$A6A_NAEBVPlayer@@@Z@std@@@Z",
+                "?forEachPlayer@Dimension@@QEBAXV?$function@$$A6A_NAEBVPlayer@@@Z@std@@@Z",
+                "?getClearColorScale@Dimension@@UEAAMXZ",
+                "?getCloudHeight@Dimension@@UEBAMXZ",
+                "?getFogColor@Dimension@@UEBA?AVColor@@M@Z",
+                "?getMaxFogEnd@Dimension@@UEBAMXZ",
+                "?getMoonBrightness@Dimension@@QEBAMXZ",
+                "?getMoonPhase@Dimension@@QEBAHXZ",
+                "?getSunIntensity@Dimension@@UEBAMMAEBVVec3@@M@Z",
+                "?getTimeOfDay@Dimension@@QEBAMM@Z",
+                "?getTimeOfDay@Dimension@@MEBAMHM@Z",
+                "?init@Dimension@@UEAAXXZ",
+                "?isDay@Dimension@@UEBA_NXZ",
+                "?onBlockChanged@Dimension@@UEAAXAEAVBlockSource@@AEBVBlockPos@@IAEBVBlock@@2HPEBUActorBlockSyncMessage@@@Z",
+                "?onBlockEvent@Dimension@@UEAAXAEAVBlockSource@@HHHHH@Z",
+                "?onChunkLoaded@Dimension@@UEAAXAEAVLevelChunk@@@Z",
+                "?onLevelDestruction@Dimension@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                "?onNewChunk@Dimension@@UEAAXAEAVBlockSource@@AEAVLevelChunk@@@Z",
+                "?sendBroadcast@Dimension@@UEAAXAEBVPacket@@PEAVPlayer@@@Z",
+                "?sendPacketForEntity@Dimension@@QEAAXAEBVActor@@AEBVPacket@@PEBVPlayer@@@Z",
+                "?sendPacketForPosition@Dimension@@QEAAXAEBVBlockPos@@AEBVPacket@@PEBVPlayer@@@Z",
+                "?serialize@Dimension@@UEBAXAEAVCompoundTag@@@Z",
+                "?tick@Dimension@@UEAAXXZ",
+                "?tickRedstone@Dimension@@UEAAXXZ",
+                "?transferEntity@Dimension@@QEAAXAEBVVec3@@V?$unique_ptr@VCompoundTag@@U?$default_delete@VCompoundTag@@@std@@@std@@@Z",
+                "?transferEntityToUnloadedChunk@Dimension@@QEAAXAEBVVec3@@V?$unique_ptr@VCompoundTag@@U?$default_delete@VCompoundTag@@@std@@@std@@@Z",
+                "?tryGarbageCollectStructures@Dimension@@QEAAXXZ",
+                "?updateLightRamp@Dimension@@UEAAXXZ",
+                "?upgradeOldLimboEntity@Dimension@@AEAAXAEAVCompoundTag@@W4LimboEntitiesVersion@@@Z",
+                "??1Dimension@@UEAA@XZ"
+            ]
+        },
+        {
+            "name": "Level",
+            "address": "0x2BCF460",
+            "functions": [
+                "?_cleanupDisconnectedPlayers@Level@@AEAAXXZ",
+                "?_createMapSavedData@Level@@AEAAAEAVMapItemSavedData@@AEBUActorUniqueID@@@Z",
+                "?_getValidatedPlayerName@Level@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                "?_handleChangeDimensionRequests@Level@@AEAAXXZ",
+                "?_handlePlayerSuspension@Level@@AEAAXXZ",
+                "?_loadAutonomousEntities@Level@@AEAAXXZ",
+                "?_loadBiomeData@Level@@AEAAXXZ",
+                "?_loadMapData@Level@@AEAAPEAVMapItemSavedData@@AEBUActorUniqueID@@@Z",
+                "?_playerChangeDimension@Level@@AEAA_NPEAVPlayer@@AEAVChangeDimensionRequest@@@Z",
+                "?_saveAutonomousEntities@Level@@AEAAXXZ",
+                "?_saveSomeChunks@Level@@AEAAXXZ",
+                "?_syncTime@Level@@AEAAXH@Z",
+                "?addAutonomousEntity@Level@@UEAAPEAVActor@@AEAVBlockSource@@V?$unique_ptr@VActor@@U?$default_delete@VActor@@@std@@@std@@@Z",
+                "?addEntity@Level@@UEAAPEAVActor@@AEAVBlockSource@@V?$unique_ptr@VActor@@U?$default_delete@VActor@@@std@@@std@@@Z",
+                "?addGlobalEntity@Level@@UEAAPEAVActor@@AEAVBlockSource@@V?$unique_ptr@VActor@@U?$default_delete@VActor@@@std@@@std@@@Z",
+                "?addListener@Level@@QEAAXAEAVLevelListener@@@Z",
+                "?addParticle@Level@@QEAAPEAVParticle@@W4ParticleType@@AEBVVec3@@1HPEBVCompoundTag@@_N@Z",
+                "?addPlayer@Level@@UEAAXV?$unique_ptr@VPlayer@@U?$default_delete@VPlayer@@@std@@@std@@@Z",
+                "?addTerrainParticleEffect@Level@@QEAAXAEBVBlockPos@@AEBVBlock@@AEBVVec3@@MMM@Z",
+                "?borrowEntity@Level@@UEAA?AV?$unique_ptr@VActor@@U?$default_delete@VActor@@@std@@@std@@UActorUniqueID@@PEAVLevelChunk@@@Z",
+                "?broadcastBossEvent@Level@@QEAAXW4BossEventUpdateType@@@Z",
+                "?broadcastDimensionEvent@Level@@QEAAXAEAVBlockSource@@W4LevelEvent@@AEBVVec3@@HPEAVPlayer@@@Z",
+                "?broadcastEntityEvent@Level@@QEAAXPEAVActor@@W4ActorEvent@@H@Z",
+                "?broadcastLevelEvent@Level@@QEAAXW4LevelEvent@@AEBVVec3@@HPEAVPlayer@@@Z",
+                "?broadcastLevelEvent@Level@@QEAAXW4LevelEvent@@AEBVCompoundTag@@PEAVPlayer@@@Z",
+                "?broadcastSoundEvent@Level@@QEAAXAEAVBlockSource@@W4LevelSoundEvent@@AEBVVec3@@HAEBUActorDefinitionIdentifier@@_N4@Z",
+                "?checkAndHandleMaterial@Level@@QEAA_NAEBVAABB@@W4MaterialType@@PEAVActor@@@Z",
+                "?copyAndLockMap@Level@@QEAA_NUActorUniqueID@@0@Z",
+                "?createDimension@Level@@QEAAAEAVDimension@@V?$AutomaticID@VDimension@@H@@@Z",
+                "?createMapSavedData@Level@@QEAAAEAVMapItemSavedData@@AEBUActorUniqueID@@AEBVBlockPos@@V?$AutomaticID@VDimension@@H@@H@Z",
+                "?denyEffect@Level@@QEAAXAEBVVec3@@@Z",
+                "?destroyBlock@Level@@QEAA_NAEAVBlockSource@@AEBVBlockPos@@_N@Z",
+                "?entityChangeDimension@Level@@QEAAXAEAVActor@@V?$AutomaticID@VDimension@@H@@@Z",
+                "?expandMapByID@Level@@QEAA?AUActorUniqueID@@U2@_N@Z",
+                "?explode@Level@@QEAAXAEAVBlockSource@@PEAVActor@@AEBVVec3@@M_N3M3@Z",
+                "?extinguishFire@Level@@QEAA_NAEAVBlockSource@@AEBVBlockPos@@E@Z",
+                "?fetchEntity@Level@@QEBAPEAVActor@@UActorUniqueID@@_N@Z",
+                "?findPlayer@Level@@QEBAPEAVPlayer@@V?$function@$$A6A_NAEBVPlayer@@@Z@std@@@Z",
+                "?forceRemoveEntity@Level@@QEAAXAEAVActor@@@Z",
+                "?forEachDimension@Level@@QEAAXV?$function@$$A6A_NAEAVDimension@@@Z@std@@@Z",
+                "?forEachPlayer@Level@@QEBAXV?$function@$$A6A_NAEBVPlayer@@@Z@std@@@Z",
+                "?getAdventureSettings@Level@@QEAAAEAUAdventureSettings@@XZ",
+                "?getBiomeComponentFactory@Level@@UEBAAEBVBiomeComponentFactory@@XZ",
+                "?getBiomeRegistry@Level@@UEBAAEBVBiomeRegistry@@XZ",
+                "?getBlockPalette@Level@@UEBAAEBVBlockPalette@@XZ",
+                "?getCurrentServerTick@Level@@UEBA?BUTick@@XZ",
+                "?getDifficulty@Level@@QEBA?AW4Difficulty@@XZ",
+                "?getDimension@Level@@QEBAPEAVDimension@@V?$AutomaticID@VDimension@@H@@@Z",
+                "?getDimensionFactory@Level@@UEBAAEBV?$Factory@VDimension@@AEAVLevel@@AEAVScheduler@@@@XZ",
+                "?getFeatureRegistry@Level@@UEBAAEBVFeatureRegistry@@XZ",
+                "?getFeatureTypeFactory@Level@@UEBAAEBVFeatureTypeFactory@@XZ",
+                "?getGameRules@Level@@QEAAAEAVGameRules@@XZ",
+                "?getJigsawStructureRegistry@Level@@UEBAAEBVJigsawStructureRegistry@@XZ",
+                "?getMapSavedData@Level@@QEAAPEAVMapItemSavedData@@UActorUniqueID@@@Z",
+                "?getNewPlayerId@Level@@QEBAHXZ",
+                "?getPlayerColor@Level@@QEBA?AVColor@@AEBVPlayer@@@Z",
+                "?getPlayerPlatformOnlineId@Level@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVUUID@mce@@@Z",
+                "?getPlayerXUID@Level@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVUUID@mce@@@Z",
+                "?getPrimaryLocalPlayer@Level@@QEBAPEAVPlayer@@XZ",
+                "?getRandomPlayer@Level@@QEAAPEAVPlayer@@XZ",
+                "?getRuntimeEntity@Level@@QEBAPEAVActor@@VActorRuntimeID@@_N@Z",
+                "?getSpecialMultiplier@Level@@QEAAMV?$AutomaticID@VDimension@@H@@@Z",
+                "?getStructureManager@Level@@UEAAAEAVStructureManager@@XZ",
+                "?getSurfaceBuilderRegistry@Level@@UEBAAEBVSurfaceBuilderRegistry@@XZ",
+                "?getTagRegistry@Level@@UEAAAEAVTagRegistry@@XZ",
+                "?getTickingArea@Level@@QEBAPEAVITickingArea@@AEBVUUID@mce@@@Z",
+                "?hasCommandsEnabled@Level@@QEBA_NXZ",
+                "?hasExperimentalGameplayEnabled@Level@@QEBA_NXZ",
+                "?initialize@Level@@UEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVLevelSettings@@PEAVLevelData@@PEBV23@@Z",
+                "?isPlayerSuspended@Level@@QEBA_NAEAVPlayer@@@Z",
+                "??0Level@@QEAA@AEAVSoundPlayer@@V?$unique_ptr@VLevelStorage@@U?$default_delete@VLevelStorage@@@std@@@std@@AEAVIMinecraftEventing@@_NAEAVScheduler@@AEAVStructureManager@@AEAVResourcePackManager@@AEAVIEntityRegistryOwner@@V?$unique_ptr@VBlockComponentFactory@@U?$default_delete@VBlockComponentFactory@@@std@@@3@V?$unique_ptr@VBlockDefinitionGroup@@U?$default_delete@VBlockDefinitionGroup@@@std@@@3@@Z",
+                "?onChunkDiscarded@Level@@QEAAXAEAVLevelChunk@@@Z",
+                "?onChunkLoaded@Level@@UEAAXAEAVLevelChunk@@@Z",
+                "?onNewChunk@Level@@UEAAXAEAVBlockSource@@AEAVLevelChunk@@@Z",
+                "?onNewChunkFor@Level@@UEAAXAEAVPlayer@@AEAVLevelChunk@@@Z",
+                "?onPlayerDeath@Level@@UEAAXAEAVPlayer@@AEBVActorDamageSource@@@Z",
+                "?onSourceCreated@Level@@UEAAXAEAVBlockSource@@@Z",
+                "?onSourceDestroyed@Level@@UEAAXAEAVBlockSource@@@Z",
+                "?playSound@Level@@QEAAXAEAVBlockSource@@W4LevelSoundEvent@@AEBVVec3@@HAEBUActorDefinitionIdentifier@@_N4@Z",
+                "?playSound@Level@@QEAAXW4LevelSoundEvent@@AEBVVec3@@HAEBUActorDefinitionIdentifier@@_N3@Z",
+                "?playSynchronizedSound@Level@@QEAAXAEAVBlockSource@@W4LevelSoundEvent@@AEBVVec3@@HAEBUActorDefinitionIdentifier@@_N4@Z",
+                "?potionSplash@Level@@QEAAXAEBVVec3@@AEBVColor@@_N@Z",
+                "?queueEntityRemoval@Level@@UEAAX$$QEAV?$unique_ptr@VActor@@U?$default_delete@VActor@@@std@@@std@@_N@Z",
+                "?removeEntityReferences@Level@@UEAAXAEAVActor@@_N@Z",
+                "?removeListener@Level@@QEAAXAEAVLevelListener@@@Z",
+                "?requestMapInfo@Level@@QEAAXUActorUniqueID@@@Z",
+                "?requestPlayerChangeDimension@Level@@QEAAXAEAVPlayer@@V?$unique_ptr@VChangeDimensionRequest@@U?$default_delete@VChangeDimensionRequest@@@std@@@std@@@Z",
+                "?save@Level@@QEAAXXZ",
+                "?saveBiomeData@Level@@QEAAXXZ",
+                "?saveDirtyChunks@Level@@QEAAXXZ",
+                "?saveGameData@Level@@QEAAXXZ",
+                "?saveLevelData@Level@@QEAAXXZ",
+                "?saveVillages@Level@@QEAAXXZ",
+                "?setCommandsEnabled@Level@@UEAAX_N@Z",
+                "?setDefaultGameType@Level@@QEAAXW4GameType@@@Z",
+                "?setDifficulty@Level@@UEAAXW4Difficulty@@@Z",
+                "?setFinishedInitializing@Level@@UEAAXXZ",
+                "?setWorldTemplateOptionsUnlocked@Level@@UEAAXXZ",
+                "?spawnParticleEffect@Level@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVVec3@@PEAVDimension@@@Z",
+                "?startLeaveGame@Level@@UEAAXXZ",
+                "?takeEntity@Level@@UEAA?AV?$unique_ptr@VActor@@U?$default_delete@VActor@@@std@@@std@@UActorUniqueID@@@Z",
+                "?tick@Level@@UEAAXXZ",
+                "?tickEntities@Level@@QEAAXXZ",
+                "?unregisterTemporaryPointer@Level@@QEAAXAEAV_TickPtr@@@Z",
+                "?updateWeather@Level@@QEAAXMHMH@Z",
+                "??1Level@@UEAA@XZ"
+            ]
+        },
+        {
+            "name": "LevelListener",
+            "address": "0x2A43A78",
+            "functions": []
+        },
+        {
+            "name": "BlockSourceListener",
+            "address": "0x2A43B98",
+            "functions": [
+                "?onBrightnessChanged@BlockSourceListener@@UEAAXAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "??1LevelListener@@UEAA@XZ"
+            ]
+        },
+        {
+            "name": "SavedData",
+            "address": "0x2BCE800",
+            "functions": [
+                "??1SavedData@@UEAA@XZ"
+            ]
+        }
+    ],
     "functions": [
+        {
+            "name": "?registerDimensionTypes@VanillaDimensionFactory@@YAXAEAV?$Factory@VDimension@@AEAVLevel@@AEAVScheduler@@@@@Z",
+            "address": {
+                "default": "48 8B ? 55 41 ? 41 ? 48 ? ? ? 48 81 ? ? ? ? ? ? C7 ? ? ? ? ? ? ? 89 ? ? ? 89 ? ? ? 89 ? ? 4C 8B ? 48 ? ? ? ? 89"
+            }
+        },
+        {
+            "name": "?registerDimensionTypes@VanillaDimensionFactory@@YAXAEAV?$Factory@VDimension@@AEAVLevel@@AEAVScheduler@@@@@Z",
+            "address": {
+                "default": "48 8B ? 55 41 ? 41 ? 48 ? ? ? 48 81 ? ? ? ? ? ? C7 ? ? ? ? ? ? ? 89 ? ? ? 89 ? ? ? 89 ? ? 4C 8B ? 48 ? ? ? ? 89"
+            }
+        },
+        {
+            "name": "?create@?$Factory@VDimension@@AEAVLevel@@AEAVScheduler@@@@QEBA?AV?$unique_ptr@VDimension@@U?$default_delete@VDimension@@@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@AEAVLevel@@AEAVScheduler@@@Z",
+            "address": {
+                "default": "40 ? 41 ? 48 83 ? ? 4C ? ? ? ? ? ? ? 4C"
+            }
+        },
+        {
+            "name": "?registerDescription@BlockComponentFactory@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6A?AV?$unique_ptr@UBlockComponentDescription@@U?$default_delete@UBlockComponentDescription@@@std@@@std@@XZ@3@@Z",
+            "address": {
+                "default": "40 ? 56 57 48 81 ? ? ? ? ? ? C7 ? ? ? ? ? ? ? 48 8B ? ? ? ? ? 48 33 ? ? 89 ? ? ? ? ? ? 49 8B ? ? 89"
+            }
+        },
         {
             "name": "?getBiome@BlockSource@@QEAAAEAVBiome@@AEBVBlockPos@@@Z",
             "address": "0x1780830"

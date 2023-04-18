@@ -153,7 +153,6 @@
         "WeakPtr<Item>& VanillaItems::mString": "0x30605F0",
         "std::vector<SharedPtr<Item>>& ItemRegistry::mItemRegistry": "0x3060118",
         "short& ItemRegistry::mMaxItemID": "0x30507BC",
-        "std::unordered_map<std::string, SharedPtr<BlockLegacy>>& BlockTypeRegistry::mBlockLookupMap": "0x3061390",
         "bool& Item::mInCreativeGroup": "0x30507BA",
         "std::vector<ItemInstance>& Item::mCreativeList": "0x3060068",
         "std::vector<std::vector<ItemInstance>>& Item::mCreativeGroups": "0x30600E8",
